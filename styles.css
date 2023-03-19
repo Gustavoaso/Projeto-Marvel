@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Roboto:wght@100;300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+ max-width: 100%;
+    
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+ 
+}
+main{
+    color: #fff;
+    font-family: Roboto;
+   font-size: larger;
+    
+}
+header{
+
+    text-align: center;
+    border-bottom: 1px dashed gray;
+   
+}
+ .nav-list {
+ display: flex;
+justify-content: space-between;
+max-width: 90%;
+margin: 0 auto;
+margin-bottom: 50px;
+margin-top: 15px;
+}
+
+section div{
+display: flex;
+max-width: 60%;
+margin: 0 auto;
+
+}
+
+.texto{
+    display: block; 
+    margin: 0 auto;
+    text-align: justify;
+  
+}
+
+section{
+    max-width: 100%;
+}
+p{
+    margin-top: 10px;
+}
+h1{
+  
+    font-family: Oswald;
+    font-size: 50px;
+}
+
+.botao_personagens
+{
+    cursor: pointer;
+    width: 170px;
+    text-align: center;
+    padding: 12px;
+}
+.botao_personagens:hover{
+    background-color: #e62429;
+    border-top-left-radius: 40px    ;
+    border-bottom-right-radius: 40px ;
+}
+
+#marvel_img{
+    
+    padding: 10px;
+}
+div img{
+    height: 350px;
+    margin: 20px;
+
+}
+
+
+@media(max-width: 700px) {
+
+   section div{
+    display: block;
+   }
+   .nav-list{
+    display: inline-block;
+   }
+   
+ 
+   
+}
+
